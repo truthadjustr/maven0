@@ -8,7 +8,7 @@ RUN apt-get update && \
                     socat \
                     net-tools \
                     vifm 
-                    libx11-6 -y --no-install-recomends
+                    libx11-6 
 #                    tcpdump \
 #                    file \
 #                    xmlstarlet \
