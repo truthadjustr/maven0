@@ -8,9 +8,8 @@ RUN apt-get update && \
                     socat \
                     net-tools \
                     vifm \
-                    libx11-6 
-#                    tcpdump \
-#                    file \
-#                    xmlstarlet \
-#                    jq \
-#                    hexedit -y --no-install-recommends
+                    tcpdump \
+                    file \
+                    xmlstarlet \
+                    jq \
+                    hexedit -y --no-install-recommends
