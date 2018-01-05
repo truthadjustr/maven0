@@ -7,7 +7,7 @@ RUN apt-get update && \
                     netcat \
                     socat \
                     net-tools \
-                    vifm 
+                    vifm \
                     libx11-6 
 #                    tcpdump \
 #                    file \
