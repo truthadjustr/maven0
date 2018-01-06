@@ -12,4 +12,7 @@ RUN apt-get update && \
                     file \
                     xmlstarlet \
                     jq \
-                    hexedit -y --no-install-recommends
+                    hexedit -y --no-install-recommends \
+    && mkdir /opt/gradle && wget https://services.gradle.org/distributions/gradle-4.3.1-bin.zip -O /tmp/gradle.zip \
+    && unzip /tmp/gradle.zip -d /opt/gradle/ && rm -f /tmp/gradle.zip \
+    && echo "export PATH=/opt/gradle/gradle-4.3.1/bin:$PATH" >> /root/.bashrc
